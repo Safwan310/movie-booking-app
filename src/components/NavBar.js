@@ -15,7 +15,7 @@ const NavBar = () => {
     <nav className="bg-secondary shadow-lg sticky top-0 z-10">
     <div className="max-w-6xl mx-auto px-4">
       <div className="flex justify-between items-center">
-      <div><Link to="/" className="md:hidden text-fifth text-shadow-neon font-neon text-2xl">Book My Show</Link></div>
+      <div><Link to="/" className="md:hidden text-fifth text-shadow-neon font-neon text-2xl">Book My Movie</Link></div>
         <div className="md:hidden flex items-center p-5">
               <div><button className="outline mobile-menu-button" onClick={navHandler}>
               <svg className=" w-6 h-6 text-gray-500 hover:text-green-500 "
