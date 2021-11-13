@@ -43,7 +43,7 @@ const NavBar = () => {
 
         <div className="flex justify-between md:p-2">
           <div className="flex items-center justify-center text-3xl font-neon">
-              <Link to="/" className="hidden md:block text-fifth text-shadow-neon">Book My Show</Link>
+              <Link to="/" className="hidden md:block text-fifth text-shadow-neon">Book My Movie</Link>
               
           </div>
           <div className="hidden md:flex items-center justify-center space-x-10 font-pixelated text-2xl lg:text-4xl md:text-3xl p-5 sticky top-0">
