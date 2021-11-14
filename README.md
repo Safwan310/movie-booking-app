@@ -1,6 +1,10 @@
 # Live Deployment of the web app:
 To view the live deployment, click [here](https://bookmymovie3.netlify.app/)
-
+# Tech stack:
+This web app was made using
+- [React.js](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TMDB API](https://developers.themoviedb.org/3/getting-started/introduction)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
