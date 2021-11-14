@@ -5,18 +5,18 @@ const TicketBooking = () => {
     let selectedSeats = [];
     const selectionHandler = (e) => {
         let n = e.target.getAttribute('data-value')
+        if(selectedSeats.includes(n)){
+            e.target.classList.toggle("bg-fifth");
+            selectedSeats.splice(selectedSeats.indexOf(n), 1);
+        }
+        else{
         if(selectedSeats.length === 6){
             alert("Only 6 tickets per user allowed 🙃")
         }
         else{
             e.target.classList.toggle("bg-fifth");
-            if(n in selectedSeats){
-                selectedSeats.splice(selectedSeats.indexOf(n), 1);
-            }
-            else{
-                selectedSeats.push(n);
-            }
-        }
+            selectedSeats.push(n);
+        }}
     }
     for(let i = 0; i < 56; i++){
         seats.push([i+1,flag]);
